@@ -14,7 +14,7 @@ def load_jpeg():
         samplewise_std_normalization=False,
         zca_whitening=False,
         zca_epsilon=1e-06,
-        rotation_range=range(0,40),
+        rotation_range=45,
         width_shift_range=0.0,
         height_shift_range=0.0,
         brightness_range=None,
