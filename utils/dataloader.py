@@ -30,7 +30,7 @@ def load_jpeg():
     dtype=None)
 	
 
-	train_ds=data_gen.flow_from_directory(
+    train_ds=data_gen.flow_from_directory(
 	    directory,
 	    target_size=(256, 256),
 	    color_mode="rgb",
