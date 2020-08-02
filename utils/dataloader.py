@@ -1,4 +1,4 @@
-from keras import backend as K
+import tensorf as tf
 
 def load_jpeg():
     # This function should read the JPEG folder and apply image augmentations and return the generator object.
@@ -7,7 +7,7 @@ def load_jpeg():
     #just some random comments
     directory= "../input/siim-isic-melanoma-classification/jpeg/"
 
-    data_gen = K.preprocessing.image.ImageDataGenerator(
+    data_gen = tf.keras.preprocessing.image.ImageDataGenerator(
         featurewise_center=False,
         samplewise_center=False,
         featurewise_std_normalization=False,
