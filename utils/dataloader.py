@@ -1,4 +1,4 @@
-import keras
+from keras import backend as K
 
 def load_jpeg():
     # This function should read the JPEG folder and apply image augmentations and return the generator object.
