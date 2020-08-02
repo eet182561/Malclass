@@ -7,7 +7,7 @@ def load_jpeg():
     #just some random comments
     directory= "../input/siim-isic-melanoma-classification/jpeg/"
 
-    data_gen = keras.preprocessing.image.ImageDataGenerator(
+    data_gen = K.preprocessing.image.ImageDataGenerator(
         featurewise_center=False,
         samplewise_center=False,
         featurewise_std_normalization=False,
