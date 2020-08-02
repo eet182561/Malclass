@@ -1,13 +1,8 @@
 1) Download and install gitbash using default options if you are in windows. In ubuntu install using apt-get install git
 2) Make a account on github if you don't have. Pass that account name to me.
-3) After that open gitbash. navigate to desktop using `cd Desktop`. 
-4) In desktop create a new directory using `mkdir MalenomaClassification`.
-5) Then change director to MalenomaClassification using `cd MalenomaClassification`.
-6) Once inside, initialize the directory as a git directory by using `git init`.
-Note*: To copy from this notepad file or anywhere else except the git bash conlose, select the text and press ctrl+c. To copy from git bash console, just select the text using mouse. To paste into git bash shell use shift+insert. This will be useful when you will need to copy paste the following command.
-7) Once intialized, add the the github url as remote origin using `git remote add origin https://github.com/eet182561/Malclass`. You can verify you remote using `git remote -v`. you should see something like this:
-origin  https://github.com/eet182561/Malclass (fetch)
-origin  https://github.com/eet182561/Malclass (push)
+3) After that open gitbash. navigate to where you wish to have the project. 
+4) Use git this command to download the repo--'git clone https://github.com/eet182561/Malclass.git'
+5)-7) Chill.
 8) Now pull the master branch from the repo using command `git pull origin master'
 9) It will sync everything. 
 10) Make changes to code/write your own code.
